@@ -29,3 +29,7 @@ terraform apply -var-file=dev.tfvars
 ```
 
 By using `.tfvars` files, you can keep your Terraform code more generic and flexible while tailoring configurations to different scenarios and environments.
+
+
+# Notes addition
+1. By default terraform will look for **terraform.tfvars** file , if you used anyother names you can mention the name in "-var-file" parameter in terraform plan / apply commands.
